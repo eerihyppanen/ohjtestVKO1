@@ -1,0 +1,61 @@
+-------------------------------------------------------------------------------
+Test set: main.TestCalc2
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 2, Errors: 7, Skipped: 0, Time elapsed: 0.015 s <<< FAILURE! - in main.TestCalc2
+testObese  Time elapsed: 0 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The method getBMICategoryString(double, double) is undefined for the type BMICalc
+
+	at main.TestCalc2.testObese(TestCalc2.java:105)
+
+testNegativeOrZeroWeight  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <-1.0> but was: <0.0>
+	at main.TestCalc2.testNegativeOrZeroWeight(TestCalc2.java:118)
+
+testOverweightBoundary  Time elapsed: 0 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The method getBMICategoryString(double, double) is undefined for the type BMICalc
+
+	at main.TestCalc2.testOverweightBoundary(TestCalc2.java:63)
+
+testUnderweight  Time elapsed: 0 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The method getBMICategoryString(double, double) is undefined for the type BMICalc
+
+	at main.TestCalc2.testUnderweight(TestCalc2.java:21)
+
+testNegativeOrZeroheight  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <-1.0> but was: <9.223372036854776E17>
+	at main.TestCalc2.testNegativeOrZeroheight(TestCalc2.java:128)
+
+testNormalWeight  Time elapsed: 0 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The method getBMICategoryString(double, double) is undefined for the type BMICalc
+
+	at main.TestCalc2.testNormalWeight(TestCalc2.java:49)
+
+testObeseBoundary  Time elapsed: 0 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The method getBMICategoryString(double, double) is undefined for the type BMICalc
+
+	at main.TestCalc2.testObeseBoundary(TestCalc2.java:91)
+
+testOverweight  Time elapsed: 0.013 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The method getBMICategoryString(double, double) is undefined for the type BMICalc
+
+	at main.TestCalc2.testOverweight(TestCalc2.java:77)
+
+testNormalWeightBoundary  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	The method getBMICategoryString(double, double) is undefined for the type BMICalc
+
+	at main.TestCalc2.testNormalWeightBoundary(TestCalc2.java:35)
+
