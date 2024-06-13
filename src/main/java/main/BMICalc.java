@@ -22,7 +22,7 @@ public String getBMICategoryString(double height, double weight) {
         return "Invalid input";
     } else if (BMI < 18.5) {
         return "Underweight";
-    } else if (BMI >= 18.5 && BMI < 24.9) {
+    } else if (BMI >= 18.5 && BMI <= 24.9) {
         return "Normal weight";
     } else if (BMI >= 25 && BMI < 29.9) {
         return "Overweight";

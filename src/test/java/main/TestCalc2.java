@@ -47,6 +47,8 @@ public class TestCalc2 {
         double expectedBMI = 24.9;
         double actualBMI = calculator.calculateBMI(height, weight);
         String actualBMIText = calculator.getBMICategoryString(height, weight);
+        System.out.println("Actual BMI: " + actualBMI);
+        System.out.println("Category: " + actualBMIText);
 
         assertEquals(expectedBMI, actualBMI);
         assertEquals("Normal weight", actualBMIText);

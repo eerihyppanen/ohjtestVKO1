@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="main.TestCalc2" time="0.015" tests="9" errors="7" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="main.TestCalc2" time="0" tests="9" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="FI"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\eehyp\AppData\Local\Temp\surefire11728261656403258345\surefirebooter12089429268502114220.jar C:\Users\eehyp\AppData\Local\Temp\surefire11728261656403258345 2024-06-13T13-13-43_467-jvmRun1 surefire7501067640983901162tmp surefire_06327587275721485950tmp"/>
+    <property name="sun.java.command" value="C:\Users\eehyp\AppData\Local\Temp\surefire1193485792102156340\surefirebooter8837631440424317833.jar C:\Users\eehyp\AppData\Local\Temp\surefire1193485792102156340 2024-06-13T14-18-32_663-jvmRun1 surefire11345943325016012572tmp surefire_07514322840962710510tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="c:\Users\eehyp\Desktop\ohjlmTEST\Vko1\ohjtest\target\test-classes;c:\Users\eehyp\Desktop\ohjlmTEST\Vko1\ohjtest\target\classes;C:\Users\eehyp\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\eehyp\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\eehyp\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.1\junit-jupiter-engine-5.8.1.jar;C:\Users\eehyp\.m2\repository\org\junit\platform\junit-platform-engine\1.8.1\junit-platform-engine-1.8.1.jar;C:\Users\eehyp\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\eehyp\.m2\repository\org\junit\platform\junit-platform-commons\1.8.1\junit-platform-commons-1.8.1.jar;C:\Users\eehyp\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.1\junit-jupiter-api-5.8.1.jar;C:\Users\eehyp\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\eehyp\AppData\Local\Temp\surefire11728261656403258345\surefirebooter12089429268502114220.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\eehyp\AppData\Local\Temp\surefire1193485792102156340\surefirebooter8837631440424317833.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.1+12-LTS-29"/>
@@ -58,70 +58,13 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testObese" classname="main.TestCalc2" time="0">
-    <error message="Unresolved compilation problem: &#10;	The method getBMICategoryString(double, double) is undefined for the type BMICalc&#10;" type="java.lang.Error">java.lang.Error: 
-Unresolved compilation problem: 
-	The method getBMICategoryString(double, double) is undefined for the type BMICalc
-
-	at main.TestCalc2.testObese(TestCalc2.java:105)
-</error>
-  </testcase>
-  <testcase name="testNegativeOrZeroWeight" classname="main.TestCalc2" time="0">
-    <failure message="expected: &lt;-1.0&gt; but was: &lt;0.0&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <-1.0> but was: <0.0>
-	at main.TestCalc2.testNegativeOrZeroWeight(TestCalc2.java:118)
-]]></failure>
-  </testcase>
-  <testcase name="testOverweightBoundary" classname="main.TestCalc2" time="0">
-    <error message="Unresolved compilation problem: &#10;	The method getBMICategoryString(double, double) is undefined for the type BMICalc&#10;" type="java.lang.Error">java.lang.Error: 
-Unresolved compilation problem: 
-	The method getBMICategoryString(double, double) is undefined for the type BMICalc
-
-	at main.TestCalc2.testOverweightBoundary(TestCalc2.java:63)
-</error>
-  </testcase>
-  <testcase name="testUnderweight" classname="main.TestCalc2" time="0">
-    <error message="Unresolved compilation problem: &#10;	The method getBMICategoryString(double, double) is undefined for the type BMICalc&#10;" type="java.lang.Error">java.lang.Error: 
-Unresolved compilation problem: 
-	The method getBMICategoryString(double, double) is undefined for the type BMICalc
-
-	at main.TestCalc2.testUnderweight(TestCalc2.java:21)
-</error>
-  </testcase>
-  <testcase name="testNegativeOrZeroheight" classname="main.TestCalc2" time="0">
-    <failure message="expected: &lt;-1.0&gt; but was: &lt;9.223372036854776E17&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <-1.0> but was: <9.223372036854776E17>
-	at main.TestCalc2.testNegativeOrZeroheight(TestCalc2.java:128)
-]]></failure>
-  </testcase>
-  <testcase name="testNormalWeight" classname="main.TestCalc2" time="0">
-    <error message="Unresolved compilation problem: &#10;	The method getBMICategoryString(double, double) is undefined for the type BMICalc&#10;" type="java.lang.Error">java.lang.Error: 
-Unresolved compilation problem: 
-	The method getBMICategoryString(double, double) is undefined for the type BMICalc
-
-	at main.TestCalc2.testNormalWeight(TestCalc2.java:49)
-</error>
-  </testcase>
-  <testcase name="testObeseBoundary" classname="main.TestCalc2" time="0">
-    <error message="Unresolved compilation problem: &#10;	The method getBMICategoryString(double, double) is undefined for the type BMICalc&#10;" type="java.lang.Error">java.lang.Error: 
-Unresolved compilation problem: 
-	The method getBMICategoryString(double, double) is undefined for the type BMICalc
-
-	at main.TestCalc2.testObeseBoundary(TestCalc2.java:91)
-</error>
-  </testcase>
-  <testcase name="testOverweight" classname="main.TestCalc2" time="0.013">
-    <error message="Unresolved compilation problem: &#10;	The method getBMICategoryString(double, double) is undefined for the type BMICalc&#10;" type="java.lang.Error">java.lang.Error: 
-Unresolved compilation problem: 
-	The method getBMICategoryString(double, double) is undefined for the type BMICalc
-
-	at main.TestCalc2.testOverweight(TestCalc2.java:77)
-</error>
-  </testcase>
-  <testcase name="testNormalWeightBoundary" classname="main.TestCalc2" time="0.002">
-    <error message="Unresolved compilation problem: &#10;	The method getBMICategoryString(double, double) is undefined for the type BMICalc&#10;" type="java.lang.Error">java.lang.Error: 
-Unresolved compilation problem: 
-	The method getBMICategoryString(double, double) is undefined for the type BMICalc
-
-	at main.TestCalc2.testNormalWeightBoundary(TestCalc2.java:35)
-</error>
-  </testcase>
+  <testcase name="testObese" classname="main.TestCalc2" time="0"/>
+  <testcase name="testNegativeOrZeroWeight" classname="main.TestCalc2" time="0"/>
+  <testcase name="testOverweightBoundary" classname="main.TestCalc2" time="0"/>
+  <testcase name="testUnderweight" classname="main.TestCalc2" time="0"/>
+  <testcase name="testNegativeOrZeroheight" classname="main.TestCalc2" time="0"/>
+  <testcase name="testNormalWeight" classname="main.TestCalc2" time="0"/>
+  <testcase name="testObeseBoundary" classname="main.TestCalc2" time="0"/>
+  <testcase name="testOverweight" classname="main.TestCalc2" time="0"/>
+  <testcase name="testNormalWeightBoundary" classname="main.TestCalc2" time="0"/>
 </testsuite>
